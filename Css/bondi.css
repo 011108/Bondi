@@ -1,0 +1,123 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
+  --warning-c: #FEC107;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.main-title::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: var(--green-color);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*start Header*/
+.navbar{
+  background-color: var(--dark-color);
+}
+.navbar .nav-link{
+  color: white;
+}
+.navbar .active{
+  color: var(--green-color);
+}
+.navbar .nav-link:hover {
+  color: var(--green-color);
+}
+.search {
+  color: var(--green-color);
+}
+.navbar-toggler:hover {
+  box-shadow:none;
+}
+.main-btn-sign{
+  border-radius: 7px;
+  margin-left: 40px;
+}
+.main-btn{
+  border-radius: 7px;
+  padding: 6px;
+  
+}
+/*End Header*/
+/*Startlanding*/
+.landing {
+  background-color: var(--dark-color);
+  min-height: calc(100vh - 54px);
+}
+/*end landing*/
+/*start features*/
+.row svg {
+  color: var(--green-color);
+}
+/*end features*/
+/*start our worke*/
+.our-work {
+  background-color: var(--section-color);
+}
+.our-work ul .active{
+  background-color: var(--warning-c);
+  border-radius: 10px;
+}
+.our-work ul li:hover{
+  color: var(--warning-c);
+}
+.our-work ul li {
+  padding: 10px;
+}
+/*end our worke*/
+/*start stuf*/
+.description {
+  max-width: 500px;
+}
+/*end stuf*/
+/*start team*/
+.team {
+  background-color: var(--section-color);
+}
+.team .team-name{
+  background-color: var(--green-color);
+}
+/*end team*/
+/*start project*/
+.project {
+  background-color: var(--dark-color);
+}
+/*end project*/
+/* Start Footer */
+
+.footer {
+
+  background-color: var(--dark-color);
+}
+.footer .copyright > span {
+  color: var(--green-color);
+}
+.footer .copyright div span {
+  color: var(--yellow-color);
+}
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+.footer .facebook {
+  background-color: #1877f2;
+}
+.footer .twitter {
+  background-color: #1da1f2;
+}
+.footer .linkedin {
+  background-color: #0077b5;
+}
+.footer .youtube {
+  background-color: #ff0000;
+}
+/* End Footer */
